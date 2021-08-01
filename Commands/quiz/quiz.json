@@ -1,0 +1,499 @@
+{
+    "quiz":[
+        {
+        "question": "Как зовут главного злодея в серии игр про Соника?", 
+        "answers":["Валуиджи", "Доктор Эггман","Боузер"], 
+        "verifyedAnswer": 2,
+        "time":30,
+        "pts":30
+        },
+        {
+        "question": "Знаете ли вы имя этого культового женского персонажа?", 
+        "answers":["Самус Аран", "Лара Крофт","Тифа Локфарт"], 
+        "verifyedAnswer": 1,
+        "time":30,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/09/969/items_1_poster__1618729025.jpg"
+        },
+        {
+        "question": "Сколько было выпущено продолжений культовой игры Half-Life 2?", 
+        "answers":["2", "4","3"], 
+        "verifyedAnswer": 1,
+        "time":20,
+        "pts":15
+        },
+        {
+        "question": "Назовите главного персонажа серии игр Metal Gear Solid.", 
+        "answers":["Ликвид Снейк", "Биг Босс","Солид Снейк"], 
+        "verifyedAnswer": 3,
+        "time":20,
+        "pts":45
+        },
+        {
+        "question": "К какой культовой серии принадлежит эта игра?", 
+        "answers":["Tomb Raider", "Mass Effct","Uncharted"], 
+        "verifyedAnswer": 1,
+        "time":10,
+        "pts":15,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/09/969/items_4_poster__1618734037.jpg"
+        },
+        {
+        "question": "Как зовут главного героя серии игр The Witcher?", 
+        "answers":["Геральт", "Лютик","Ламберт"], 
+        "verifyedAnswer": 1,
+        "time":10,
+        "pts":15
+        },
+        {
+        "question": "Какую принцессу спасает Марио?", 
+        "answers":["Боузетту", "Принцессу Пич","Принцессу Зельду"], 
+        "verifyedAnswer": 2,
+        "time":20,
+        "pts":40
+        },
+        {
+        "question": "К какому жанру игр относится серия The Sims?", 
+        "answers":["Квест", "Стратегия в реальном времени","Симмулятор жизни"], 
+        "verifyedAnswer": 3,
+        "time":10,
+        "pts":20
+        },
+        {
+        "question": "Какую принцессу спасает Линк?", 
+        "answers":["Тауриэль", "Зельду","Дейнерис"], 
+        "verifyedAnswer": 2,
+        "time":30,
+        "pts":50
+        },
+        {
+        "question": "Как зовут главного героя серии God of War?", 
+        "answers":["Кратос", "Посейдон","Арес"], 
+        "verifyedAnswer": 1,
+        "time":30,
+        "pts":50
+        },
+        {
+        "question": "Помните Героев меча и магии 2? Какой из перечисленных фракций в игре не было?", 
+        "answers":["Варвары", "Оплот","Чародеи"], 
+        "verifyedAnswer": 2,
+        "time":30,
+        "pts":50
+        },
+        {
+        "question": "Что за игра?", 
+        "answers":["Broken Sword", "Myst","The Legend of Kyrandia"], 
+        "verifyedAnswer": 3,
+        "time":30,
+        "pts":50,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/78/items_2_poster__1592841854.jpg"
+        },
+        {
+        "question": "Как победить главного злодея в The Legend of Kyrandia?", 
+        "answers":["Активировать невидимость и встать у зеркала", "Активировать невидимость и столкнуть с балкона","Огненное заклинание, потом заморозка"], 
+        "verifyedAnswer": 1,
+        "time":30,
+        "pts":50
+        },
+        {
+        "question": "В Disciples 2 в начале игры можно выбрать тип Лорда - Маг, Разведчик или Полководец (в некоторых переводах называются иначе). В зависимости от этого определялся тип героя, которого вы получите, а также некоторые преимущества. В чем было преимущество выбора Мага?", 
+        "answers":["Колдовать 2 раза одно заклинание за ход ", "Бесплатный вызов суммонов","Прирост маны"], 
+        "verifyedAnswer": 1,
+        "time":30,
+        "pts":50
+        },
+        {
+        "question": "Что за игра?", 
+        "answers":["Dispel", "Fallout","Diablo"], 
+        "verifyedAnswer": 2,
+        "time":30,
+        "pts":50,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/78/items_5_poster__1592844237.jpg"
+        },
+        {
+        "question": "Какой из перечисленных пушек в Quack 2 не было?", 
+        "answers":["Knuckles", "Hyperbluster","Chaingun"], 
+        "verifyedAnswer": 1,
+        "time":30,
+        "pts":50
+        },
+        {
+        "question": "В какой игре рассказывается о противостоянии НАТО и российских националистах в союзе с террористами?", 
+        "answers":["Grand Theft Auto: Vice City", "l.g.l-2: Covert Strike","Call of Duty 4: Modern Warfare"], 
+        "verifyedAnswer": 3,
+        "time":15,
+        "pts":30
+        },
+        {
+        "question": "Чит на деньги в Grand Theft Auto 3?", 
+        "answers":["IFIWEREARICHMAN", "GIVEUSATANK","TORTOISE"], 
+        "verifyedAnswer": 3,
+        "time":15,
+        "pts":50
+        },
+        {
+        "question": "Что не дал нам ящер из игры «Проклятые земли», чтобы мы завалили плотину?", 
+        "answers":["Рычаг", "Камень","Благославление"], 
+        "verifyedAnswer": 2,
+        "time":30,
+        "pts":50
+        },
+        {
+        "question": "Знаете родину Агента 47?", 
+        "answers":["Лондон", "Бухарест","Зальцбург"], 
+        "verifyedAnswer": 2,
+        "time":30,
+        "pts":40
+        },
+        {
+        "question": "Имя главной героини Mirror's Edge?", 
+        "answers":["Фэйт", "Нико","Целеста"], 
+        "verifyedAnswer": 1,
+        "time":10,
+        "pts":40
+        },
+        {
+        "question": "Какая из этих игр НЕ является частью серии Grand Theft Auto?", 
+        "answers":["The City Of Lost Haven", "Vice City","San Andreas"], 
+        "verifyedAnswer": 1,
+        "time":10,
+        "pts":20
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Assassin`s Creed Odyssey", "Uncharted","Sea of Thieves"], 
+        "verifyedAnswer": 1,
+        "time":10,
+        "pts":20,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/09/999/items_1_poster__1619234723.jpg"
+        },
+        {
+        "question": "Как зовут сына кратоса из игры God of War 2018?", 
+        "answers":["Моди", "Брок","Атрей"], 
+        "verifyedAnswer": 3,
+        "time":10,
+        "pts":20
+        },
+        {
+        "question": "Какой известный актер НЕ принимал участие в создании игры Death Stranding?", 
+        "answers":["Норман Ридус", "Лионардо Ди Каприо","Мадс Миккельсон"], 
+        "verifyedAnswer": 2,
+        "time":10,
+        "pts":20
+        },
+        {
+        "question": "Помните ли вы фамилию Артура из игры Red Dead Redemption 2?", 
+        "answers":["Марстон", "Тёрнер","Морган"], 
+        "verifyedAnswer": 3,
+        "time":10,
+        "pts":20
+        },
+        {
+        "question": "Кто не является протагонистом игры The Last Of Us 2?", 
+        "answers":["Эбби", "Элли","Джоэл"], 
+        "verifyedAnswer": 3,
+        "time":10,
+        "pts":20
+        },
+        {
+        "question": "Назовите имя главного героя Hades?", 
+        "answers":["Загрей", "Сизиф","Аид"], 
+        "verifyedAnswer": 1,
+        "time":10,
+        "pts":30
+        },
+        {
+        "question": "Роль какого персонажа озвучил Киану Ривз с игре Cyberpunk 2077?", 
+        "answers":["Адам Смэшер", "Керри Евродин","Джонни Сильверхенд"], 
+        "verifyedAnswer": 3,
+        "time":10,
+        "pts":20
+        },
+        {
+        "question": "Как зовут жену главного героя Uncharted 4: A Thief's End?", 
+        "answers":["Елена Фишер", "Хлоя Фрейзер","Надин Росс"], 
+        "verifyedAnswer": 1,
+        "time":10,
+        "pts":30
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Mass Effect 2", "Devil May Cry 4","Fortnite"], 
+        "verifyedAnswer": 3,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/68/items_0_poster__1591217720.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Borderlands: The Pre-Sequel!", "Tales from the Borderlands","Borderlands 3"], 
+        "verifyedAnswer": 2,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/68/items_1_poster__1591217754.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Ghost of Tsushima", "Inside","Death Stranding"], 
+        "verifyedAnswer": 2,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/68/items_2_poster__1591217808.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Dishonored", "Dead Space 2","Alien: Isolation"], 
+        "verifyedAnswer": 1,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/09/999/items_1_poster__1619234723.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["The Long Dark", "Timmelie","Syberia 2"], 
+        "verifyedAnswer": 1,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/68/items_6_poster__1591218196.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Quack 4", "Destiny 2","Detroit: Become Human"], 
+        "verifyedAnswer": 2,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/68/items_7_poster__1591218236.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Dying Light", "Left 4 Dead","DayZ"], 
+        "verifyedAnswer": 1,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/68/items_8_poster__1591218335.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Alan Wake", "Detroit: Become Human","Beyond: Two Souls"], 
+        "verifyedAnswer": 2,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/68/items_9_poster__1591219293.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Grand Theft Auto", "The Godfather","Mafia: The City Of Lost Haven"], 
+        "verifyedAnswer": 3,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/01/189/items_0_poster__1599569444.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["King's Bounty", "Disciples 2","Heroes of might and magic 3"], 
+        "verifyedAnswer": 3,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/01/189/items_1_poster__1599569549.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Starcraft", "X-com","Warcraft"], 
+        "verifyedAnswer": 1,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/01/189/items_2_poster__1599569636.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Bioshock", "Resident Evil","Deus ex"], 
+        "verifyedAnswer": 3,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/01/189/items_3_poster__1599569718.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Fallout", "Jagged Alliance","Fallout 2"], 
+        "verifyedAnswer": 3,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/01/189/items_4_poster__1599569786.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Fallout", "Jagged Alliance","Fallout 2"], 
+        "verifyedAnswer": 3,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/01/189/items_5_poster__1599569889.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Казаки", "Age of Empires","Rise of nations"], 
+        "verifyedAnswer": 2,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/01/189/items_6_poster__1599569963.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Left 4 Dead", "Soldire of fortune","Half-life"], 
+        "verifyedAnswer": 3,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/01/189/items_7_poster__1599570134.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Call of Duty", "Rainbow six","Hitman"], 
+        "verifyedAnswer": 3,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/01/189/items_8_poster__1599570207.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Supaplex", "Kubraworld","Bomberman"], 
+        "verifyedAnswer": 1,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/01/189/items_9_poster__1599570303.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Days Gone", "Wasteland 2","Metro: Last Light"], 
+        "verifyedAnswer": 3,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/69/items_0_poster__1591220640.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Alan Wake", "Quantom Break","Control"], 
+        "verifyedAnswer": 1,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/69/items_1_poster__1591220743.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Horizon: Zero Dawn", "Skyrim","Far Cry Primal"], 
+        "verifyedAnswer": 3,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/69/items_2_poster__1591220806.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Just Cause 3", "GTA 5","Far Cry New Dawn"], 
+        "verifyedAnswer": 1,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/69/items_3_poster__1591220865.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Sekiro: Shadows Die Twice", "Nioh","Dark Souls 3"], 
+        "verifyedAnswer": 1,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/69/items_4_poster__1591221003.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["TES:Skyrim", "TES:Oblivion","TES:Online"], 
+        "verifyedAnswer": 1,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/69/items_5_poster__1591256203.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Fallout 3", "Horizon Zero Dawn","TES:Online"], 
+        "verifyedAnswer": 2,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/69/items_6_poster__1591256359.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Red Dead Revolver", "Red Dead Redemption 2","Call of Duty 5"], 
+        "verifyedAnswer": 2,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/69/items_7_poster__1591256628.jpg"
+        },
+        {
+        "question": "Назовите эту игру.", 
+        "answers":["Stalker Online", "S.T.A.L.K.E.R.: Тень Чернобля","Fallout 76"], 
+        "verifyedAnswer": 2,
+        "time":20,
+        "pts":30,
+        "imageAttachment":"https://moretestov.com/gallery/00/00/00/00/00/69/items_8_poster__1591256688.jpg"
+        },
+        {
+        "question": "В одном из эпизодов серии игр Dark Souls странствующий рыцарь Солер прибывает в умирающее королевство Лордран для того, чтобы найти и восславить ... О чем идет речь?", 
+        "answers":["Древнюю античную архитектуру королевства", "Солнце","Луну"], 
+        "verifyedAnswer": 2,
+        "time":30,
+        "pts":40
+        },
+        {
+        "question": "Древние боги (Йогг-Сарон и К'Тун, в частности) из вселенной WarCraft, как признавались разработчики, были навеяны творчеством Лавкрафта. Знаете, чем конкретно?", 
+        "answers":["Йог-Сотот, одно из божеств пантеона Лавкрафта", "Слепой и безумный Азатот, верховное божество","Исполинское морское чудовище и, по совместительству, древнее божество Ктулху","Все варианты верны. Весь пантеон достаточно жуткий"], 
+        "verifyedAnswer": 4,
+        "time":30,
+        "pts":40
+        },
+        {
+        "question": "Раса ночных эльфов, из мира Азерота, при создании впитала в себя множество скандинавских мифов. Что является их основой?", 
+        "answers":["Мировое древо. У эльфов, правда, это был не Иггдрасиль", "Тотемы и тотемная магия","Обращение к демонам. Именно поэтому они могут скрываться в тени"], 
+        "verifyedAnswer": 1,
+        "time":30,
+        "pts":40
+        },
+        {
+        "question": "В игре «God of War» в одном побочных квесте нужно было уничтожить глаза Одина. Кто выступал этими глазами?", 
+        "answers":["Вороны", "Гигантские жуки","Волки","Псы"], 
+        "verifyedAnswer": 1,
+        "time":30,
+        "pts":40
+        },
+        {
+        "question": "Что убийца в Heavy Rain оставлял у тел своих жертв?", 
+        "answers":["Птичку оригами", "Карточную даму","Золотую монету","Желтую розу"], 
+        "verifyedAnswer": 1,
+        "time":30,
+        "pts":40
+        },
+        {
+        "question": "Кто чаще всего выступал главным антагонистом в серии игр Castelvania?", 
+        "answers":["Дракула", "Дьявол","Франкенштейн"], 
+        "verifyedAnswer": 1,
+        "time":30,
+        "pts":40
+        },
+        {
+        "question": "Из какого материала был выполнен меч геральта, который используется исключительно против монстров?", 
+        "answers":["Серебро", "Спалав стали и редких кристалов","Небесная бронза","Мифрил"], 
+        "verifyedAnswer": 1,
+        "time":30,
+        "pts":40
+        },
+        {
+        "question": "Еще в 40-ых годах прошлого века известный писатель Айзек Азимов в одной из своих книг придумал три закона, которым должны подчиняться «эти» существа. Игра «Detroit: Become Human» посвящена как раз взаимодействию людей и ...?", 
+        "answers":["Рептилоиды", "Андроиды","Людены"], 
+        "verifyedAnswer": 2,
+        "time":30,
+        "pts":40
+        },
+        {
+        "question": "Сейчас во многих странах действует запрет на нацисткую символику, особенно в Германии. Тем не менее, игры по Вторую мировую весьма популярны, ну а игры, где главный противник - это третий (четвертый, пятый...) Рейх - еще больше. Одна из них - «Wolfenstein II: The New Colossus». Вы знаете, чем разработчики заменили свастику в немецкой версии игры?", 
+        "answers":["Просто развернули её в дргую сторону", "Не менее узнаваемыми усами фюрера","Буква 'Н' с вензелями"], 
+        "verifyedAnswer": 2,
+        "time":30,
+        "pts":40
+        }
+    ]
+    
+}
