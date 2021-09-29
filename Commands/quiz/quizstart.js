@@ -8,7 +8,7 @@ module.exports = function quizstart(client, mess, args, systemColor) {
     const embed = new Discord.MessageEmbed()
     .setDescription("Викторина скоро начнется. Для участия нажмите на ✅")
     .setColor(systemColor);
-    mess.channel.send(embed).then((msg) =>{
+    mess.channel.send({embeds:[embed]}).then((msg) =>{
         msg.react("✅").then((reaction) => setTimeout(() => participiant(reaction,mess,systemColor),30000));
     });
 }
@@ -23,7 +23,7 @@ function participiant(reaction,mess,systemColor){
         embed.setColor(systemColor);
         runQuiz.delete(mess.guild.id);
         runQuizCurrent.delete(mess.guild.id);
-        return mess.channel.send(embed);
+        return mess.channel.send({embeds:[embed]});
     }
     for(let i = 1;i<participiants.length;i++){
         embedDescription += `\n ${i} - <@${participiants[i]}> - 0 pts`;
@@ -31,7 +31,7 @@ function participiant(reaction,mess,systemColor){
     embed.setThumbnail("https://e7.pngegg.com/pngimages/470/133/png-clipart-quiz-guess-word-trivia-history-quiz-game-quiz-miscellaneous-game.png")
     embed.setDescription(`__**СПИСОК УЧАСТНИКОВ**__ \n ${embedDescription}`);
     embed.setColor(systemColor);
-    mess.channel.send(embed);
+    mess.channel.send({embeds:[embed]});
     let participiantsArray = [];
     for(let i = 1;i< participiants.length;i++){
         participiantsArray.push({id:participiants[i],pts:0});
@@ -39,7 +39,7 @@ function participiant(reaction,mess,systemColor){
     if(runQuiz.get(mess.guild.id))setTimeout(() => quizGenerator(mess,participiantsArray,systemColor),30000);
     else{ 
         runQuizCurrent.delete(mess.guild.id);
-        mess.channel.send("Викторина была остановлена");
+        mess.channel.send({content:"Викторина была остановлена"});
     }
 }
 function quizGenerator(mess,participiants,systemColor){
@@ -54,7 +54,7 @@ function quizGenerator(mess,participiants,systemColor){
     .setFooter(`У вас ${quiz.quiz[random].time} секунд чтобы ответить на вопрос`, 'https://img.favpng.com/13/19/4/vector-graphics-stock-illustration-clip-art-stock-photography-image-png-favpng-yVLas3sNtqf4FZ9a7kzpNPGxe.jpg')
     .setColor(systemColor);
     if(quiz.quiz[random].imageAttachment) embed.setImage(quiz.quiz[random].imageAttachment);
-    mess.channel.send(embed).then((msg) =>{
+    mess.channel.send({embeds:[embed]}).then((msg) =>{
         let peopleRespond = [];
         msg.react("1⃣");
         msg.react("2⃣");
@@ -170,7 +170,7 @@ function quizGenerator(mess,participiants,systemColor){
             msg.delete() //Удаляем сообщение
             if(isContinued)leaderBords(mess,participiants,systemColor);
        else {
-       mess.channel.send("Никто так и не ответил на вопрос :( Викторина была остановлена");
+       mess.channel.send({content:"Никто так и не ответил на вопрос :( Викторина была остановлена"});
        runQuizCurrent.delete(mess.guild.id);
        runQuiz.delete(mess.guild.id);
        }

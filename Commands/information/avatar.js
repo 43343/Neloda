@@ -5,6 +5,6 @@ module.exports = function avatarT(client, mess, args,systemColor) {
   .setImage(user.displayAvatarURL({ dynamic: true, format: "png", size: 4096 }))
   .setDescription('аватар <@' + user+'>')
   .setColor(systemColor);
-  mess.channel.send(exampleEmbed);
+  mess.channel.send({embeds:[exampleEmbed]});
   console.log(user.displayAvatarURL())
 }

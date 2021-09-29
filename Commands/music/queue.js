@@ -5,8 +5,9 @@ module.exports = function queues(client, mess, args, systemColor) {
         let length = queue.get(mess.guild.id).songs.length;
         if(length < 2){
             const embed = new Discord.MessageEmbed()
-        .setDescription("В данный момент в очереди ничего нет");
-        mess.channel.send(embed);
+        .setDescription("В данный момент в очереди ничего нет")
+        .setColor(systemColor);
+        mess.channel.send({embeds:[embed]});
         }
         else{
             if(length > 10) length = 10;
@@ -19,12 +20,13 @@ module.exports = function queues(client, mess, args, systemColor) {
             .setColor(systemColor)
             .setThumbnail(queue.get(mess.guild.id).songs[1].thumbnail)
             .setDescription(description);
-            mess.channel.send(embed)
+            mess.channel.send({embeds:[embed]})
         }
     }
     else{
         const embed = new Discord.MessageEmbed()
-        .setDescription("В данный момент ничего не воспроизводится");
-        mess.channel.send(embed);
+        .setDescription("В данный момент ничего не воспроизводится")
+        .setColor(systemColor);
+        mess.channel.send({embeds:[embed]});
     }
 }

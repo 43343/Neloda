@@ -126,6 +126,12 @@ module.exports = function steam(client, mess, args, systemColor) {
                 res.on("end", () =>{
                     bodyCount = JSON.parse(bodyCount);
                     let online = bodyCount.response.player_count;
+                    console.log(price);
+                    console.log(online)
+                    console.log(platforms)
+                    console.log(releaseDate)
+                    console.log(developers);
+                    console.log(publishers)
                     let embedMessage = new Discord.MessageEmbed()
                     .setTitle(nameGame)
                     .setURL(urlGame)
@@ -133,14 +139,14 @@ module.exports = function steam(client, mess, args, systemColor) {
                     .setThumbnail(avatarGame)
                     .addFields(
                         {name:"Цена", value:price,inline:true},
-                        {name:"Онлайн", value:online,inline:true},
+                        {name:"Онлайн", value:online.toString(),inline:true},
                         {name:"Платформы", value:platforms,inline:true},
                         {name:"Дата выхода", value:releaseDate,inline:true},
                         {name:"Разработчик", value:developers,inline:true},
                         {name:"Издатель", value:publishers,inline:true},
                     )
                     .setColor(systemColor);
-                    mess.channel.send(embedMessage);
+                    mess.channel.send({embeds:[embedMessage]});
                 })
             })
         }

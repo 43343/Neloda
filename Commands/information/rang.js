@@ -144,6 +144,6 @@ module.exports = async function rang(client, mess, args,) {
 	context.clip();
     const avatar = await Canvas.loadImage(user.displayAvatarURL({ format: 'jpg' }));
 	context.drawImage(avatar, 10, 40, 120, 120);
-    const attachment = new Discord.MessageAttachment(canvas.toBuffer(), 'welcome-image.png');
-    mess.channel.send(attachment);
+    const attachment = new Discord.MessageAttachment(canvas.toBuffer(), 'rang.png');
+    mess.channel.send({files:[attachment]});
 }

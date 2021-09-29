@@ -13,11 +13,12 @@ module.exports = function current(client, mess, args, systemColor) {
         .setURL(song.url)
         .setAuthor("Сейчас играет", "https://yt3.ggpht.com/a/AATXAJy7lH0SMPsWLmhiANgNL1NHNRClVmXfE1CAnTzQ=s900-c-k-c0xffffffff-no-rj-mo")
         .setColor(systemColor);
-        mess.channel.send(embed);
+        mess.channel.send({embeds:[embed]});
     }
     else{
         const embed = new Discord.MessageEmbed()
-        .setDescription("В данный момент ничего не воспроизводится");
-        mess.channel.send(embed);
+        .setDescription("В данный момент ничего не воспроизводится")
+        .setColor(systemColor);
+        mess.channel.send({embeds:[embed]});
     }
 }

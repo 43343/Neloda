@@ -67,9 +67,11 @@ module.exports = function poll(client, mess, args, systemColor) {
 				break;
 			}
 		}
-		const embed = new Discord.MessageEmbed().setDescription(`___**${count[0]}**___` +
-		'\n\n' + answers).setFooter('Опрос создал ' + mess.author.username, mess.author.displayAvatarURL());
-		mess.channel.send(embed).then( (message) => {
+		const embed = new Discord.MessageEmbed()
+		.setDescription(`___**${count[0]}**___` +'\n\n' + answers)
+		.setFooter('Опрос создал ' + mess.author.username, mess.author.displayAvatarURL())
+		.setColor(systemColor);
+		mess.channel.send({embeds:[embed]}).then( (message) => {
 		if(cur <= 1)
         {
             message.react("✅");
@@ -111,6 +113,6 @@ module.exports = function poll(client, mess, args, systemColor) {
 '\n```!!опрос <текст вопроса>```'+
 '\n**Пример 2**'+
 '\n```!!опрос "<текст вопроса>" "<вариант ответа 1>" "<вариант ответа 2>" "<вариант ответа 3>" (ковычки использовать обязательно, максисмальное колличество вариантов ответа 10)```').setColor(systemColor);
-		mess.channel.send(embed)
+		mess.channel.send({embeds:[embed]})
 	}
 }

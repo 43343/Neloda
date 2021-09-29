@@ -11,7 +11,7 @@ module.exports = function dog(client, mess, args,systemColor) {
             bodyParser = JSON.parse(bodyParser);
             embedMessage.setImage(bodyParser.url)
             .setColor(systemColor);
-            mess.channel.send(embedMessage);
+            mess.channel.send({embeds:[embedMessage]});
         })
     })
 }

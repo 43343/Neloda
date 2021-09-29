@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-function math(client, mess, args, systemColor) {
+module.exports = function math(client, mess, args, systemColor) {
 	const countArray = function(args){
     let result = 0;
     for(i = 0; i < args.length; i++)
@@ -8,13 +8,15 @@ function math(client, mess, args, systemColor) {
     }
 	if(countArray(args) < 3) 
 		{
-			const embed = new Discord.MessageEmbed().setDescription('**Команда "!!вычислить"**' +
+			const embed = new Discord.MessageEmbed()
+			.setDescription('**Команда "!!вычислить"**' +
 '\n**Использование**' +
 '\n```!!вычислить <выражение>```'+
 '\n**Пример**'+
 '\n```!!вычислить 2+2'+
-'\n┗ Вернёт 4.```');
-		mess.channel.send(embed)
+'\n┗ Вернёт 4.```')
+        .setColor(systemColor);
+		mess.channel.send({embeds:[embed]})
 		return;
 		}
 	var s = '';
@@ -39,7 +41,7 @@ function math(client, mess, args, systemColor) {
 	var FNs = new Function('return ' + str);
 	const FN = FNs();
     if (FN !== undefined) {
-      mess.channel.send(str + '=' + FN)
+      mess.channel.send({content:str + '=' + FN})
     }
 	}
 	catch(e){
@@ -49,7 +51,6 @@ function math(client, mess, args, systemColor) {
 '\n**Пример**'+
 '\n```!!вычислить 2+2'+
 '\n┗ Вернёт 4.```').setColor(systemColor);
-		mess.channel.send(embed)
+		mess.channel.send({embeds:[embed]})
 	}
 }
-module.exports.math = math;

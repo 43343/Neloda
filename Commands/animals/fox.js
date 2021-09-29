@@ -10,8 +10,8 @@ module.exports = function fox(client, mess, args,systemColor) {
         res.on("end",() =>{
             bodyParser = JSON.parse(bodyParser);
             embedMessage.setImage(bodyParser.file)
-            .setColor(systemColors);
-            mess.channel.send(embedMessage);
+            .setColor(systemColor);
+            mess.channel.send({embeds:[embedMessage]});
         })
     })
 }

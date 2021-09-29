@@ -11,7 +11,9 @@ module.exports = (client) => {
    global.queueRepeatMap = new Map();
     global.runQuiz = new Map();
     global.runQuizCurrent = new Map();
-    client.on('message', async (msg) => {
+    console.log("bb");
+    client.on('messageCreate', async (msg) => {
+      console.log("bb");
       if (msg.author.username != client.user.username && msg.author.discriminator != client.user.discriminator) {
       if(!msg.guild) return;
       //выдача хотдогов
@@ -37,7 +39,7 @@ module.exports = (client) => {
     let guildConfig = await GuildConfig.findOne({guildId:msg.guild.id});
     if(!guildConfig){
       guildConfig = new GuildConfig({
-        guildId:msg.guild.id
+        guildId:msg.guildId
       });
     }
     const prefix = guildConfig.get(`prefix`); 

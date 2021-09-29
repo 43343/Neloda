@@ -6,7 +6,8 @@ module.exports = function steamuser(client, mess, args, systemColor) {
         let lengths;
         let lengthstart;
         arr.slice(27,35) == "profiles" ? lengthstart = 36 : lengthstart = 30;
-        arr[arr.length] == "/" ? lengths = arr.length-1 : lengths = arr.length;
+        arr[arr.length-1] == "/" ? lengths = arr.length-1 : lengths = arr.length;
+        console.log(arr[arr.length-1])
         if(arr.slice(0,8) == "https://")  {
             return arr.slice(lengthstart,lengths);
         }
@@ -14,6 +15,7 @@ module.exports = function steamuser(client, mess, args, systemColor) {
         else if(arr.slice(0,29) == "steamcommunity.com/profiles/") return arr.slice(29,lengths);
         else return arr;
     }
+    console.log(urlParser(args[1]))
     https.get(`https://api.steampowered.com/ISteamUser/ResolveVanityURL/v1/?key=52DC9C9E096E3A843FEE7FE85A595FA9&vanityurl=${urlParser(args[1])}`,(res) =>{
         let bodyCount = '';
         res.on("data", (dataCount) =>{
@@ -76,15 +78,15 @@ module.exports = function steamuser(client, mess, args, systemColor) {
                                     .setThumbnail(urlAvatar)
                                     .setTitle(userName)
                                     .addFields(
-                                        {name:"Игры",value:gameCount , inline: true},
-                                        {name:"Уровень",value:level, inline: true},
+                                        {name:"Игры",value:gameCount.toString() , inline: true},
+                                        {name:"Уровень",value:level.toString(), inline: true},
                                         {name:"Статус",value:status, inline: true},
-                                        {name:"Наиграно часов",value:date, inline: true},
+                                        {name:"Наиграно часов",value:date.toString(), inline: true},
                                         {name:"Игровая активность",value:gameactivity, inline: true},
-                                        {name:"Дата создания",value:timeCreated, inline: true},
+                                        {name:"Дата создания",value:timeCreated.toString(), inline: true},
                                     )
                                     .setColor(systemColor);
-                                    mess.channel.send(embed);
+                                    mess.channel.send({embeds:[embed]});
                                 })
                             })
                         })

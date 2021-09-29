@@ -51,5 +51,5 @@ module.exports = function wolf(client, mess, args, systemColor) {
     const embed = new Discord.MessageEmbed()
     .setImage(massiveArrayImage[Math.floor(Math.random() * massiveArrayImage.length)])
     .setColor(systemColor);
-    mess.channel.send(embed);
+    mess.channel.send({embeds:[embed]});
 }

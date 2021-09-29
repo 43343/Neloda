@@ -8,14 +8,14 @@ module.exports = function repeats(client, mess, args, systemColor) {
             const embed = new Discord.MessageEmbed()
     .setColor(systemColor)
     .setDescription("Включен повтор очереди");
-    mess.channel.send(embed);
+    mess.channel.send({embeds:[embed]});
         }
         else {
             repeat.set(mess.guild.id,true);
             const embed = new Discord.MessageEmbed()
     .setColor(systemColor)
     .setDescription("Включен повтор текущей композиции");
-    mess.channel.send(embed);
+    mess.channel.send({embeds:[embed]});
         }
     } 
     else{
@@ -25,6 +25,6 @@ module.exports = function repeats(client, mess, args, systemColor) {
         const embed = new Discord.MessageEmbed()
     .setColor(systemColor)
     .setDescription("Выключен повтор");
-    mess.channel.send(embed);
+    mess.channel.send({embeds:[embed]});
     }
 }

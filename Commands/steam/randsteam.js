@@ -6,7 +6,7 @@ module.exports = function randsteam(client, mess, args, systemColor) {
         let lengths;
         let lengthstart;
         arr.slice(27,35) == "profiles" ? lengthstart = 36 : lengthstart = 30;
-        arr[arr.length] == "/" ? lengths = arr.length-1 : lengths = arr.length;
+        arr[arr.length-1] == "/" ? lengths = arr.length-1 : lengths = arr.length;
         if(arr.slice(0,8) == "https://")  {
             return arr.slice(lengthstart,lengths);
         }
@@ -124,19 +124,19 @@ const getAppInfo = (appid) => {
                     .setThumbnail(avatarGame)
                     .addFields(
                         {name:"Цена", value:price,inline:true},
-                        {name:"Онлайн", value:online,inline:true},
+                        {name:"Онлайн", value:online.toString(),inline:true},
                         {name:"Платформы", value:platforms,inline:true},
                         {name:"Дата выхода", value:releaseDate,inline:true},
                         {name:"Разработчик", value:developers,inline:true},
                         {name:"Издатель", value:publishers,inline:true},
                     )
                     .setColor(systemColor);
-                    mess.channel.send(embedMessage);
+                    mess.channel.send({embeds:[embedMessage]});
                 })
             })
         }
         catch(e){
-            return randsteam(client, mess, args);
+            return randsteam(client, mess, args, systemColor);
         }
         })
     })

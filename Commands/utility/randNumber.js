@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-function rand(client, mess, args,systemColor) {
+module.exports = function rand(client, mess, args,systemColor) {
 	let finalVal;
 	const countArray = function(args){
     let result = 0;
@@ -12,13 +12,13 @@ function rand(client, mess, args,systemColor) {
 		const min = parseInt(args[1]);
 		const max = parseInt(args[2]) + 1;
 		finalVal = Math.floor(Math.random() * (max - min)) + min;
-		mess.channel.send(finalVal);
+		mess.channel.send({content:finalVal.toString()});
 	}
 	else if(countArray(args) == 3)
 	{
 		const min = parseInt(args[1]);
 		finalVal = Math.floor(Math.random() * min);
-		mess.channel.send(finalVal);
+		mess.channel.send({content:finalVal.toString()});
 	}
 	if(isNaN(finalVal))
 	{
@@ -36,7 +36,6 @@ function rand(client, mess, args,systemColor) {
 '\n**Пример 2**'+
 '\n```!!ранд 100 200'+
 '\n┗ Вернёт произвольное число от 100 до 200.```').setColor(systemColor);
-		mess.channel.send(embed)
+		mess.channel.send({embeds:[embed]})
 	}
 }
-module.exports.rand = rand;

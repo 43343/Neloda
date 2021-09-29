@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const fetch = require("node-fetch")
+/*const fetch = require("node-fetch");
 module.exports = function youtube(client, mess, args, systemColor) {
 	let channel = mess.member.voice.channel;
     if(!channel) return mess.channel.send("Зайдите в голосовой канал");
@@ -28,4 +28,4 @@ module.exports = function youtube(client, mess, args, systemColor) {
         .setColor(systemColor);
         mess.channel.send(embed)
     })
-}
+}*/
